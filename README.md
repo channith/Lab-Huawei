@@ -2,4 +2,4 @@
 Learn how to configure Huawei switch, router
 
 * Feb/04/2020
- * [Filtering the Routes to Be Received or Advertised]9Filtering-the-Routes-to-Be-Received-or-Advertised.md)
+ * [Filtering the Routes to Be Received or Advertised](Filtering-the-Routes-to-Be-Received-or-Advertised.md)
