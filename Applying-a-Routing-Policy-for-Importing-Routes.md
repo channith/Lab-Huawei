@@ -180,7 +180,15 @@ route-policy isis2ospf deny node 100
 
 <h4>1.3.6 Apply the routing policy when routes are imported</h4>
 
-Check the OSPF routing table on SW1, you can find that the cost of the route to 192.168.1.0/24 is 100; the tag of the route to 192.168.2.0/24 is 20; (192.168.3.0/24 was missed becasue of deny in routing policy node 100).
+On switch SW2,
+
+```
+ospf 1
+ import-route isis 1 route-policy isis2ospf
+ quit
+```
+
+Check the OSPF routing table on SW1, you can find that the cost of the route to 192.168.1.0/24 is 100; the tag of the route to 192.168.2.0/24 is 20; (192.168.3.0/24, 192.168.23.0/24 were missed becasue of deny in routing policy node 100).
  
  ![image](https://user-images.githubusercontent.com/63696723/106991977-00c5db00-67aa-11eb-9b91-e0dcca0dac11.png)
  
