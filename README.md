@@ -5,3 +5,4 @@ Learn how to configure Huawei switch, router
   * [Filtering the Routes to Be Received or Advertised](Filtering-the-Routes-to-Be-Received-or-Advertised.md)
   * [Applying a Routing Policy for Importing Routes](Applying-a-Routing-Policy-for-Importing-Routes.md)
   * [Lab: DHCP, Traffic Redirection, NAT with AR2220](DHCP-Redirect-Traffic-and-NAT.md)
+  * [Applying the AS-Path Attribute to a Route-Policy](AS-Path-Attribute-to-a-Route-Policy.md)
