@@ -12,7 +12,7 @@ L2PT for LACP
 
 ```
 interface Eth-Trunk1
- description TO~DX-SHVEZE-RA02-STK01~Eth-Trunk85~Via~ME-PNHCC-RC03-CS02
+ description TO~CS02
  set flow-stat interval 30
  port link-type trunk
  undo port trunk allow-pass vlan 1
@@ -80,7 +80,7 @@ interface XGigabitEthernet0/0/21
 
 ```
 interface Eth-Trunk1
- description TO~DX-SHVEZE-RA02-STK01~Eth-Trunk85~Via~ME-PNHCC-RC03-CS02
+ description TO~CS02
  set flow-stat interval 30
  port link-type trunk
  undo port trunk allow-pass vlan 1
